@@ -260,9 +260,16 @@
 上面的错误做法就导致了scrollable再嵌套一个scrollable了,导致你无论怎么滑也看不到header和footer。
 同理的,你可能需要配合NotificationListener,ScrollConfiguration...这类组件,记住,千万别在ScrollView(你想增加刷新部分)外和SmartRefresher内存放。
 
+## 如果你想把SmartRefresher放进Column里面
 
-
-
+```
+Column(
+    children: [
+        Text('hello world', 
+        Expanded(child: SmartRefresher(...))
+    ],
+)
+```
 
 ## 更多
 - [属性文档](propertys.md) 或者 [Api/Doc](https://pub.dev/documentation/pull_to_refresh/latest/pulltorefresh/SmartRefresher-class.html)
