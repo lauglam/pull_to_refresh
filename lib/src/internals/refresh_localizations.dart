@@ -190,16 +190,16 @@ class EnRefreshString implements RefreshString {
   String? canRefreshText = "Release to refresh";
 
   @override
-  String? canTwoLevelText = "Release to enter secondfloor";
+  String? canTwoLevelText = "Release to enter second floor";
 
   @override
-  String? idleLoadingText = "Pull up Load more";
+  String? idleLoadingText = "Pull up to load more";
 
   @override
-  String? idleRefreshText = "Pull down Refresh";
+  String? idleRefreshText = "Pull down to refresh";
 
   @override
-  String? loadFailedText = "Load Failed";
+  String? loadFailedText = "Load failed";
 
   @override
   String? loadingText = "Loading…";
