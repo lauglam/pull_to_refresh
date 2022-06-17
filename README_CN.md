@@ -22,12 +22,19 @@ fork而来，由于原作者可能不再对该库进行维护。所以本人对�
 
 ## 已整合的原项目的问题或提交
 [Fixed grammar and typos #215](https://github.com/peng8350/flutter_pulltorefresh/pull/215)
+
 [fix: typo #429](https://github.com/peng8350/flutter_pulltorefresh/pull/429)
+
 [fix: ScrollContext.storageContext时element可能已经unmounted #510](https://github.com/peng8350/flutter_pulltorefresh/pull/510)
+
 [fix memory leak when use default header and footer. #513](https://github.com/peng8350/flutter_pulltorefresh/pull/513)
+
 [修复不满一页且footer=nomore显示不全bug #521](https://github.com/peng8350/flutter_pulltorefresh/pull/521)
+
 [Update README.md #548](https://github.com/peng8350/flutter_pulltorefresh/pull/548)
+
 [Add Arabic localization #574](https://github.com/peng8350/flutter_pulltorefresh/pull/574)
+
 [Adds Norwegian localisation #575](https://github.com/peng8350/flutter_pulltorefresh/pull/575)
 
 
