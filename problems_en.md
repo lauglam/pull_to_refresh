@@ -13,7 +13,7 @@ If you have this error message, it's usually because there's no limit on the hei
 In RefreshConfiguration, there is an attribute hideFooterWhenNotFull, which in most cases can help you calculate and determine whether or not to hide.
 
 5.  <h3>Does the indicator support custom frame animation? For example, I want to change the GIF schedule with drag-and-drop, reach a certain state and start cycling.</h3>
-Now this question has been solved ,check out this [plugin](https://github.com/sou1maker/flutter_gifimage),can help you controll gif progress,and [example](example/lib/ui/example/customindicator/gif_indicator_example1.dart) is here
+Now this question has been solved ,check out this [plugin](https://github.com/cube1in/flutter_gifimage),can help you controll gif progress,and [example](example/lib/ui/example/customindicator/gif_indicator_example1.dart) is here
 
 6.  <h3>What is the relationship between the values of three variables in Spring Decription and how to use these values to achieve the rebound effect I want?</h3>
 This question suggests that you look up the API in flutter, and you need to understand a certain amount of physics and mathematics. Actually, I don't know how to calculate it.

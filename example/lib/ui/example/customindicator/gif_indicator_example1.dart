@@ -4,7 +4,7 @@ import 'package:flutter/material.dart' hide RefreshIndicator, RefreshIndicatorSt
 
 /*
   I use my plugin to implements gif effect,this plugin can help you to controll gif easily,
-  see page to find about usage: (https://github.com/sou1maker/flutter_gifimage)
+  see page to find about usage: (https://github.com/cube1in/flutter_gifimage)
 */
 class GifHeader1 extends RefreshIndicator {
   const GifHeader1({Key? key}) : super(key: key, height: 80.0, refreshStyle: RefreshStyle.Follow);

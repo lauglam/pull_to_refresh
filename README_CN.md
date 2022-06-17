@@ -59,7 +59,7 @@ fork而来，由于原作者可能不再对该库进行维护。所以本人对�
     
       pull_to_refresh:
         git:
-          url: https://github.com/sou1maker/pull_to_refresh.git
+          url: https://github.com/cube1in/pull_to_refresh.git
     
 
 ```
@@ -223,11 +223,11 @@ fork而来，由于原作者可能不再对该库进行维护。所以本人对�
 | RefreshStyle.Follow <br> ![跟随](example/images/refreshstyle1.gif) |RefreshStyle.UnFollow <br>  ![不跟随](example/images/refreshstyle2.gif)| LoadStyle.ShowAlways <br> ![永远显示](example/images/loadstyle1.gif) | LoadStyle.HideAlways<br>  ![永远隐藏](example/images/loadstyle2.gif)|
 | RefreshStyle.Behind <br> ![背部](example/images/refreshstyle3.gif)| RefreshStyle.Front <br> ![前面悬浮](example/images/refreshstyle4.gif)| LoadStyle.ShowWhenLoading<br> ![当加载中才显示,其它隐藏](example/images/loadstyle3.gif) | |
 
-|Style| [ClassicIndicator](https://github.com/sou1maker/pull_to_refresh/blob/master/lib/src/indicator/classic_indicator.dart) | [WaterDropHeader](https://github.com/sou1maker/pull_to_refresh/blob/master/lib/src/indicator/waterdrop_header.dart) | [MaterialClassicHeader](https://github.com/sou1maker/pull_to_refresh/blob/master/lib/src/indicator/material_indicator.dart) |
+|Style| [ClassicIndicator](https://github.com/cube1in/pull_to_refresh/blob/master/lib/src/indicator/classic_indicator.dart) | [WaterDropHeader](https://github.com/cube1in/pull_to_refresh/blob/master/lib/src/indicator/waterdrop_header.dart) | [MaterialClassicHeader](https://github.com/cube1in/pull_to_refresh/blob/master/lib/src/indicator/material_indicator.dart) |
 |:---:|:---:|:---:|:---:|
 || ![](example/images/classical_follow.gif) | ![](example/images/warterdrop.gif) | ![](example/images/material_classic.gif) |
 
-|Style|  [WaterDropMaterialHeader](https://github.com/sou1maker/pull_to_refresh/blob/master/lib/src/indicator/material_indicator.dart) | [Bezier+circle](example/lib/ui/example/customindicator/shimmer_indicator.dart) |[Bezier+Circle](https://github.com/sou1maker/pull_to_refresh/blob/master/lib/src/indicator/bezier_indicator.dart) |
+|Style|  [WaterDropMaterialHeader](https://github.com/cube1in/pull_to_refresh/blob/master/lib/src/indicator/material_indicator.dart) | [Bezier+circle](example/lib/ui/example/customindicator/shimmer_indicator.dart) |[Bezier+Circle](https://github.com/cube1in/pull_to_refresh/blob/master/lib/src/indicator/bezier_indicator.dart) |
 |:---:|:---:|:---:|:---:|
 ||  ![](example/images/material_waterdrop.gif) |![](example/images/shimmerindicator.gif) | ![](example/images/bezier.gif) |
 
