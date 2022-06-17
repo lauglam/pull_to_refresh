@@ -74,6 +74,7 @@ class RefreshLocalizations {
     'pt': PtRefreshString(),
     'ko': KrRefreshString(),
     'ar': ArRefreshString(),
+    'no': NoRefreshString(),
   };
 
   RefreshString? get currentLocalization {
@@ -95,8 +96,23 @@ class RefreshLocalizationsDelegate extends LocalizationsDelegate<RefreshLocaliza
 
   @override
   bool isSupported(Locale locale) {
-    return ['en', 'zh', 'fr', 'ru', 'uk', 'ja', 'it', 'de', 'ko', 'pt', 'sv', 'nl', 'es', 'ar']
-        .contains(locale.languageCode);
+    return [
+      'en',
+      'zh',
+      'fr',
+      'ru',
+      'uk',
+      'ja',
+      'it',
+      'de',
+      'ko',
+      'pt',
+      'sv',
+      'nl',
+      'es',
+      'ar',
+      'no',
+    ].contains(locale.languageCode);
   }
 
   @override
@@ -648,4 +664,40 @@ class ArRefreshString implements RefreshString {
 
   @override
   String? refreshingText = "جاري التحديث…";
+}
+
+/// Norwegian
+class NoRefreshString implements RefreshString {
+  @override
+  String? canLoadingText = "Slipp for å laste flere";
+
+  @override
+  String? canRefreshText = "Slipp for å oppdatere";
+
+  @override
+  String? canTwoLevelText = "Slip for å gå til neste nivå";
+
+  @override
+  String? idleLoadingText = "Dra opp for å laste flere";
+
+  @override
+  String? idleRefreshText = "Dra ned for å oppdatere";
+
+  @override
+  String? loadFailedText = "Lastingen mislyktes";
+
+  @override
+  String? loadingText = "Laster…";
+
+  @override
+  String? noMoreText = "Ingen flere data";
+
+  @override
+  String? refreshCompleteText = "Oppdatert";
+
+  @override
+  String? refreshFailedText = "Kunne ikke oppdatere";
+
+  @override
+  String? refreshingText = "Oppdaterer…";
 }
