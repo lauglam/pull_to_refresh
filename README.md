@@ -14,6 +14,23 @@ a widget provided to the flutter scroll component drop-down refresh and pull up 
 If you are Chinese,click here([中文文档](https://github.com/sou1maker/pull_to_refresh/blob/master/README_CN.md))
 
 
+## Notice
+This project is from
+[peng8350/flutter_pulltorefresh](https://github.com/peng8350/flutter_pulltorefresh)
+fork, because the original author may no longer maintain the library. So I fork the project and integrate the submissions in the original author.
+I am not responsible for this project and cannot guarantee further updates in the future. But if someone submits a request to the project, I'll review it accordingly.
+
+
+## Issues or commits of the original project that have been integrated
+[Fixed grammar and typos #215](https://github.com/peng8350/flutter_pulltorefresh/pull/215)
+[fix: typo #429](https://github.com/peng8350/flutter_pulltorefresh/pull/429)
+[fix: ScrollContext.storageContext时element可能已经unmounted #510](https://github.com/peng8350/flutter_pulltorefresh/pull/510)
+[fix memory leak when use default header and footer. #513](https://github.com/peng8350/flutter_pulltorefresh/pull/513)
+[修复不满一页且footer=nomore显示不全bug #521](https://github.com/peng8350/flutter_pulltorefresh/pull/521)
+[Update README.md #548](https://github.com/peng8350/flutter_pulltorefresh/pull/548)
+[Add Arabic localization #574](https://github.com/peng8350/flutter_pulltorefresh/pull/574)
+[Adds Norwegian localisation #575](https://github.com/peng8350/flutter_pulltorefresh/pull/575)
+
 
 ## Features
 * pull up load and pull down refresh
@@ -31,11 +48,13 @@ If you are Chinese,click here([中文文档](https://github.com/sou1maker/pull_t
 add this line to pubspec.yaml
 
 ```yaml
-
-   dependencies:
-
-    pull_to_refresh: ^2.0.0
-
+    
+    dependencies:
+    
+      pull_to_refresh:
+        git:
+          url: https://github.com/sou1maker/pull_to_refresh.git
+    
 
 ```
 
