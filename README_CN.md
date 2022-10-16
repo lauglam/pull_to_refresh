@@ -59,7 +59,7 @@ fork而来，由于原作者可能不再对该库进行维护。所以本人对�
     
       pull_to_refresh:
         git:
-          url: https://github.com/cube1in/pull_to_refresh.git
+          url: https://github.com/lauglam/pull_to_refresh.git
     
 
 ```
